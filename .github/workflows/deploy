@@ -1,0 +1,57 @@
+# .github/workflows/deploy.yml
+# Builds the site (regenerates the manifest + article preview pages) and
+# publishes it to GitHub Pages on every push to the main branch.
+#
+# ONE-TIME SETUP in your repo: Settings → Pages → "Build and deployment" →
+# Source → choose "GitHub Actions". (Not the older "Deploy from a branch".)
+#
+# After that, your whole publishing workflow is just:  git push.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]      # change to "master" if that's your default branch
+  workflow_dispatch:       # also lets you run it manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time; newer pushes cancel an in-progress run.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Regenerates articles/index.json and cikk/*.html from articles/*.md
+      - name: Build site
+        run: node build.mjs
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      # Upload the whole project folder as the Pages artifact.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deploy
+        uses: actions/deploy-pages@v4
