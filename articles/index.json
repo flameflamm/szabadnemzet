@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "mostRead": [
+      "szuverenitas",
+      "forint",
+      "film",
+      "ezotvenhat",
+      "videk"
+    ],
+    "ticker": [
+      "Rekordösszegű otthonteremtési program indul a fiatal családoknak",
+      "Tovább erősödött a forint a régiós devizákhoz képest",
+      "Felújították a százéves nagytemplomi orgonát",
+      "Új magyar történelmi film tarol a mozikban",
+      "Nemzeti összetartozás napja: országszerte megemlékezések"
+    ]
+  },
+  "articles": [
+    {
+      "id": "otthonteremtes",
+      "cat": "belfold",
+      "kicker": "Családpolitika",
+      "title": "Rekordösszegű otthonteremtési program indul a fiatal családoknak",
+      "dek": "A kormány bejelentése szerint a következő években jelentősen bővül a fiatal házaspárokat és gyermeket vállaló családokat segítő lakhatási támogatás kerete.",
+      "author": "Kovács Réka",
+      "role": "belpolitikai szerkesztő",
+      "date": "2026-06-05",
+      "read": 4,
+      "img": "Vezető fotó — új lakónegyed",
+      "feature": true,
+      "related": [
+        "forint",
+        "videk",
+        "nepmuveszet"
+      ]
+    },
+    {
+      "id": "forint",
+      "cat": "belfold",
+      "kicker": "Gazdaság",
+      "title": "Tovább erősödött a forint a régiós devizákhoz képest",
+      "dek": "A hazai fizetőeszköz több hónapos csúcsra emelkedett, miközben a beruházások és az export is élénkült az első negyedévben.",
+      "author": "Nagy Eszter",
+      "role": "gazdasági rovat",
+      "date": "2026-06-04",
+      "read": 3,
+      "img": "Grafikon — árfolyammozgás",
+      "related": [
+        "otthonteremtes",
+        "hatar"
+      ]
+    },
+    {
+      "id": "hatar",
+      "cat": "belfold",
+      "kicker": "Közbiztonság",
+      "title": "Korszerűsítik a déli határszakasz technikai védelmét",
+      "dek": "Új megfigyelőrendszerrel és fejlesztett infrastruktúrával erősítik meg az ország déli határvédelmét — közölte az illetékes minisztérium.",
+      "author": "Tóth Bálint",
+      "role": "tudósító",
+      "date": "2026-06-04",
+      "read": 3,
+      "img": "Fotó — határszakasz, este",
+      "related": [
+        "otthonteremtes",
+        "forint"
+      ]
+    },
+    {
+      "id": "trianon",
+      "cat": "tortenelem",
+      "kicker": "Évforduló",
+      "title": "Trianon 106 év távlatából: emlékezés és megbékélés",
+      "dek": "A nemzeti összetartozás napján a határon túli magyar közösségekre is gondolunk — azokra, akik megőrizték nyelvüket és kultúrájukat.",
+      "author": "Dr. Varga Péter",
+      "role": "történész",
+      "date": "2026-06-04",
+      "read": 6,
+      "img": "Archív térkép — placeholder",
+      "related": [
+        "ezotvenhat",
+        "szuverenitas"
+      ]
+    },
+    {
+      "id": "szuverenitas",
+      "cat": "velemeny",
+      "kicker": "Vezércikk",
+      "title": "Miért fontos a nemzeti szuverenitás a XXI. században?",
+      "dek": "A globális folyamatok közepette egyre többet beszélünk önrendelkezésről. De mit is jelent valójában egy nemzet szabadsága a saját sorsa felett?",
+      "author": "Dr. Fekete András",
+      "role": "vezető publicista",
+      "date": "2026-06-03",
+      "read": 6,
+      "img": "Portré — szerző",
+      "opinion": true,
+      "related": [
+        "videk",
+        "trianon"
+      ]
+    },
+    {
+      "id": "videk",
+      "cat": "velemeny",
+      "kicker": "Publicisztika",
+      "title": "A vidéki Magyarország nem hagyható magára",
+      "dek": "Amíg a figyelem a nagyvárosokra irányul, a kistelepülések csendben őrzik azt, ami a leginkább magyar bennünk. Itt az ideje visszafordítani a figyelmet.",
+      "author": "Szabó Júlia",
+      "role": "publicista",
+      "date": "2026-06-02",
+      "read": 5,
+      "img": "Fotó — falusi főtér",
+      "opinion": true,
+      "related": [
+        "szuverenitas",
+        "otthonteremtes"
+      ]
+    },
+    {
+      "id": "orgona",
+      "cat": "kultura",
+      "kicker": "Örökség",
+      "title": "Felújították a százéves nagytemplomi orgonát",
+      "dek": "Két év aprólékos restaurálás után újra megszólalt a több ezer sípból álló hangszer, amely generációk óta a város zenei életének szíve.",
+      "author": "Horváth Márton",
+      "role": "kulturális rovat",
+      "date": "2026-06-01",
+      "read": 4,
+      "img": "Fotó — orgona sípjai",
+      "related": [
+        "nepmuveszet",
+        "film"
+      ]
+    },
+    {
+      "id": "nepmuveszet",
+      "cat": "kultura",
+      "kicker": "Kiállítás",
+      "title": "Rekordlátogatottság a magyar népművészeti tárlaton",
+      "dek": "A hagyományos hímzéseket, viseleteket és kerámiákat bemutató kiállítás minden eddigi látogatórekordot megdöntött az első hónapban.",
+      "author": "Horváth Márton",
+      "role": "kulturális rovat",
+      "date": "2026-05-30",
+      "read": 3,
+      "img": "Fotó — hímzett viselet",
+      "related": [
+        "orgona",
+        "film"
+      ]
+    },
+    {
+      "id": "film",
+      "cat": "kultura",
+      "kicker": "Mozi",
+      "title": "Új magyar történelmi film tarol a mozikban",
+      "dek": "A nagyszabású alkotás az első hétvégén a nézőszámlista élére került, a kritikusok pedig a látványvilágot és a színészi alakításokat dicsérik.",
+      "author": "Balogh Anna",
+      "role": "filmkritikus",
+      "date": "2026-05-28",
+      "read": 4,
+      "img": "Filmplakát — placeholder",
+      "related": [
+        "nepmuveszet",
+        "orgona"
+      ]
+    },
+    {
+      "id": "ezotvenhat",
+      "cat": "tortenelem",
+      "kicker": "Emlékezet",
+      "title": "1956 öröksége: a forradalom, amely megrázta a világot",
+      "dek": "Hetven év távlatából is erőt ad az a tizenkét nap, amikor egy egész nemzet mert szembeszállni a túlerővel a szabadságért.",
+      "author": "Dr. Varga Péter",
+      "role": "történész",
+      "date": "2026-05-25",
+      "read": 7,
+      "img": "Archív fotó — 1956",
+      "feature": true,
+      "related": [
+        "trianon",
+        "szuverenitas"
+      ]
+    }
+  ]
+}
